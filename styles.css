@@ -1,0 +1,123 @@
+/*Navbar*/
+body{
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+#navbar{
+    position: fixed;
+    width: 100vw;
+}
+
+#header{
+    background-color: rgba(214, 134, 134, 0.9);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#header li{
+    display: inline-block;
+}
+
+#header li a{
+    text-decoration: none;
+    display: block;
+    padding: 20px 20px;
+    color:antiquewhite
+}
+
+#header li a:hover {
+    background-color: antiquewhite;
+    color: #d68686;
+
+}
+
+/*Logo*/
+#logo{
+    width: 10vw;
+    margin:0;
+    padding:0;
+    opacity: 0.9;
+    position: fixed;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    
+}
+#wrapper{
+    text-align: center;
+}
+
+/*Banner*/
+#banner{
+    max-width: 20vw;
+    margin: 0;
+    padding: 0;
+}
+
+/*Main*/
+
+#main{
+    background-image: url(./assets/img1.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+   
+}
+
+/*Mitad (Segunda seccion de la pagina de inicio)*/
+
+.mitad{
+    margin-top: 5vh;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+
+}
+
+#mitad1{
+    width: 50vw;
+    background-color: aqua;
+    height: 100%;
+    background-image: url(./assets/mitad1.jpg);
+    background-size: cover;
+    margin-right: 2vw;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    box-shadow: 5px 5px 30px rgb(189, 189, 189);
+}
+
+#mitad2{
+    width: 50vw;
+    background-color: rgb(223, 98, 129);
+    height: 100%;
+    background-image: url(./assets/mitad2.jpg);
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-position: 50% 50%;
+    box-shadow: 5px 5px 30px rgb(189, 189, 189);
+}
+
+#contacto-container{
+    margin-top: 5vh;
+    background-color: #5f5b6b;
+    color: antiquewhite;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mapa-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100vw;
+}
